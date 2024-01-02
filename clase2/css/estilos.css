@@ -1,0 +1,10 @@
+body{
+    background-color: #2b0635;
+    color: hsl(287, 80%, 80%);
+    font-family: Rotis, 'Trebuchet MS' ;
+    font-size: 24px;
+    /* comentario */
+}
+h1{
+    color: hsl(287, 80%, 90%);
+}
