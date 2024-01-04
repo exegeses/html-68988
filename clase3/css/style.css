@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap');
+
+body{
+    background-color: hsl(180, 60%, 1%);
+    width: 1100px;
+    margin: auto; /* centrar una caja */
+}
+
+header{
+    height: 104px;
+    background-color: #061213;
+}
+main{
+    height: 766px;
+    background-color: #111E1F;
+}
+footer{
+    height: 160px;
+    background-color: #061213;
+}
