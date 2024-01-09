@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0px;
+}
+
+body{
+    font-family: Figtree, sans-serif;
+    background-color: #3c3c3c;
+    width: 768px;
+    margin: auto;
+}
+h1{
+    margin: 24px 0px;
+    color: #fff;
+}
+h2{
+    margin: 24px 0px;
+    color: #fff;
+}
+
+#contenedor{
+    height: 350px;
+    background-color: #b7b7b7;
+    display: flex;
+    /*### distribución en el eje X (horizontal) ###*/
+    /* justify-content: start; /* predeterminado:  a la izquierda */
+    /* justify-content: end; /* a la derecha */
+    /* justify-content: center; */
+    justify-content: space-between;
+}
+
+#contenedor2{
+    height: 350px;
+    background-color: #b7b7b7;
+    display: flex;
+    /*### distribución en el eje Y (vertical) ###*/
+    /* align-items: start; /* predeterminado: arriba */
+    /* align-items: end; /* debajo (en la parte inferior) */
+    align-items: center;
+}
+
+#contenedor3{
+    height: 350px;
+    background-color: #b7b7b7;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+/* todos los articles */
+article{
+    width: 156px;
+    height: 156px;
+    background-color: #a2f3e8;
+}

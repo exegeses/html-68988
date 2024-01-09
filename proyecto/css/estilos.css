@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600&display=swap');
+
+/* reseteo */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Figtree, sans-serif;
+    color: #231F4D;
+}
+
+header{
+    width: 1100px;
+    height: 104px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    header img{
+        margin-left: 16px;
+    }
+    header nav{
+        margin-right: 16px;
+    }
+        header nav a{
+            text-decoration: none; /* quitar el subrayado */
+            font-size: 20px;
+            margin-left: 16px; /* ESTO VA A SER PADDING */
+            color: #231F4D;
+        }
+        header nav a:hover{
+            color: #E200E2;
+        }

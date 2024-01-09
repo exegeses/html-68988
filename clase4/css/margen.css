@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+}
+
+body{
+    background-color: #501200;
+    color: hsl(14, 100%, 85%);
+    font-family: sans-serif;
+}
+h1{
+    background-color: hsl(14, 100%, 10%);
+    margin: 0px 32px;
+}
+
+#amarillo{
+    height: 124px;
+    width: 124px;
+    background-color: #F7D381;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+#naranja{
+    height: 124px;
+    width: 124px;
+    background-color: #ffb787;
+    margin: auto; /* centrar una caja en aje HORIZONTAL */
+}
+#rojo{
+    height: 124px;
+    width: 124px;
+    background-color: #ff8787;
+    margin: 64px;
+}
