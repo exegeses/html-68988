@@ -36,3 +36,59 @@ header{
         header nav a:hover{
             color: #E200E2;
         }
+
+/*#####  main    #####*/
+main{
+    width: 1100px;
+    min-height: 800px;
+    margin: auto;
+}
+
+/* video en el index */
+    video{
+        width: 1100px;
+        height: 464px;
+        object-fit: cover;
+    }
+
+/* sección servicios */
+#servicios{
+    margin-top: 56px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F8DFDD;
+}
+
+    #servicios article{
+        width: 320px;
+        border-radius: 8px;
+        background-color: #fff;
+    }
+        #servicios article img{
+            border-radius: 8px 8px 0px 0px;
+        }
+
+    #servicios h2{
+        font-weight: 400;
+        margin: 16px;
+    }
+    #servicios p{
+        margin: 0px 16px 32px 16px;
+    }
+
+/* footer */
+footer{
+    width: 1100px;
+    height: 168px;
+    background-color: #231F4D;
+    margin: 56px auto 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+    footer div a{
+        margin: 12px;
+    }

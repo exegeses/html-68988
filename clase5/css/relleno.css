@@ -1,0 +1,32 @@
+/* selector universal - reseteo */
+
+*{
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #3d3d3d;
+    color: #fff;
+    font-family: sans-serif;
+    width: 768px;
+    margin: auto;
+}
+
+#contenedor{
+    height: 350px;
+    background-color: #b1b1b1;
+    padding: 16px;
+}
+    #contenedor article{
+        width: 156px;
+        height: 156px;
+        color: #3d3d3d;
+    }
+    #verde{
+        background-color: #aef9bd;
+        padding: 24px;
+    }
+    #naranja{
+        background-color: #f9d7ae;
+    }
