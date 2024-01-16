@@ -77,6 +77,61 @@ main{
         margin: 0px 16px 32px 16px;
     }
 
+/* hero banner */    
+    #hero-banner{
+        height: 450px;
+        background-image: url(../imgs/nubes.jpg);
+        background-size: 1100px;
+        background-position: 0 -200px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+        #hero-banner h1{
+            color: #fff;
+            font-size: 40px;
+            font-weight: 400;
+        }
+
+/* sección promos */
+#promos{
+    padding: 40px;
+    background-color: #FED8D2;
+    display: grid;
+    row-gap: 40px;
+    margin-top: 40px;
+}
+    #promos article{
+        background-color: #fff;
+        display: flex;
+    }
+        #promos article div{
+            padding: 16px 32px;
+        }
+            #promos article div h2{
+                font-weight: 400;
+                margin-bottom: 20px;
+            }
+            #promos article div span{
+                color: #E14536;
+            }
+            #promos article div p{
+                margin-top: 40px;
+            }
+            #promos article div a{
+                background-color: #E14536;
+                color: #fff;
+                display: block;
+                width: 160px;
+                padding: 8px;
+                margin: 40px auto 0px auto;
+                border-radius: 8px;
+                text-align: center;
+                text-decoration: none;
+            }
+
+
 /* footer */
 footer{
     width: 1100px;

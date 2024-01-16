@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600&display=swap');
+
+/* reseteo */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Figtree, sans-serif;
+    background-color: rgb(26, 59, 53);
+    color: rgb(174, 250, 236);
+}
+
+    main{
+        width: 768px;
+        margin: auto;
+    }
+    h2{
+        margin: 24px 0px 40px 0px;
+    }
+    #contenedor{
+        height: 450px;
+        background: rgb(242,70,233);
+        background: linear-gradient(180deg, rgba(242,70,233,1) 0%, rgba(180,2,2,1) 100%);
+    }
+    #contenedor2{
+        height: 450px;
+        background-image: url(../imgs/aurora.jpg);
+        background-size: cover;
+        /* background-repeat: no-repeat; */
+        /* background-repeat: repeat-y; */
+        background-color: rgb(136, 32, 32);
+    }
